@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="assets/js/calculator.js"></script>
+    <input id="num1" type="number" placeholder="Number 1">
+    <select id="operation">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+    </select>
+    <input id="num2" type="number" placeholder="Number 2">
+    <button onclick="calculate()">Calculate</button>
+    <input id="result" type="number" placeholder="Result" readonly>
+    <button onclick="clearFields()">Clear</button>
+</body>
+
+</html>
